@@ -4,17 +4,17 @@ import { useEffect, useRef, useState } from "react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Bhavvi.DEV — @Bhavyesh_havvi" },
+      { title: "Bhavvi.DEV — @Bhavyesh_Bhavvi" },
       {
         name: "description",
         content:
-          "Advanced animated developer portfolio landing page for Bhavvi.DEV / @Bhavyesh_havvi.",
+          "Advanced animated developer portfolio landing page for Bhavvi.DEV / @Bhavyesh_Bhavvi.",
       },
-      { property: "og:title", content: "Bhavvi.DEV — @Bhavyesh_havvi" },
+      { property: "og:title", content: "Bhavvi.DEV — @Bhavyesh_Bhavvi" },
       {
         property: "og:description",
         content:
-          "Advanced animated developer portfolio landing page for Bhavvi.DEV / @Bhavyesh_havvi.",
+          "Advanced animated developer portfolio landing page for Bhavvi.DEV / @Bhavyesh_Bhavvi.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -133,7 +133,7 @@ function Index() {
           >
             <span className="text-primary">@</span>
             <span className="hover:text-foreground transition-colors duration-300">
-              BHAVYESH_HAVVI
+              BHAVYESH_BHAVVI
             </span>
             <span className="w-2 h-4 bg-primary animate-cursor" />
           </div>
@@ -163,7 +163,7 @@ function Index() {
       <footer className="fixed bottom-0 inset-x-0 p-8 flex justify-between items-end z-20">
         <div className="flex gap-6">
           <a
-            href="https://github.com/Bhavyesh_havvi"
+            href="https://github.com/Bhavyesh_Bhavvi"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative font-mono text-[10px] uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors duration-300 link-underline"
@@ -171,7 +171,7 @@ function Index() {
             Github
           </a>
           <a
-            href="https://twitter.com/Bhavyesh_havvi"
+            href="https://twitter.com/Bhavyesh_Bhavvi"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative font-mono text-[10px] uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors duration-300 link-underline"
