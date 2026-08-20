@@ -81,18 +81,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Advanced animated developer portfolio landing page for Bhavvi.DEV / @Bhavyesh_havvi.",
+          "Advanced animated developer portfolio landing page for Bhavvi.DEV / @Bhavyesh_Bhavvi.",
       },
-      { name: "author", content: "Bhavyesh Havvi" },
+      { name: "author", content: "Bhavyesh Bhavvi" },
       { property: "og:title", content: "Bhavvi.DEV" },
       {
         property: "og:description",
         content:
-          "Advanced animated developer portfolio landing page for Bhavvi.DEV / @Bhavyesh_havvi.",
+          "Advanced animated developer portfolio landing page for Bhavvi.DEV / @Bhavyesh_Bhavvi.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Bhavyesh_havvi" },
+      { name: "twitter:site", content: "@Bhavyesh_Bhavvi" },
     ],
     links: [
       {
